@@ -6,6 +6,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "typeRoots": [
+        "./typings",
+        "./node_modules/@types/"
+      ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,6 +17,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
